@@ -63,9 +63,11 @@ function grid(){
 
 window.addEventListener("DOMContentLoaded", grid);
 
+//Thanking Bro Code on youtube for this insight and curing my alternating X and O misunderstanding
 function changePlayer(){
     player = (player == "X") ? "O" : "X";
 }
+
     function winning_rows(myArray){
     
         if (myArray[0] == myArray[1] && myArray[1] == myArray[2] && myArray[1] != "-" && myArray[1] != null){
